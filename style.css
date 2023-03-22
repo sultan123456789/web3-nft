@@ -1,0 +1,136 @@
+*
+{
+    margin: 0;
+    padding: 0;
+}
+
+body
+{
+    font-family: Arial, Helvetica, sans-serif;
+   
+}
+
+nav
+{
+display: flex;
+background-color:blue;
+justify-content: space-around;
+padding: 20px;
+color: white;
+width: 100%;
+
+}
+
+nav .logo
+{
+    font-family: 'Pacifico', cursive;
+    letter-spacing: 2px;
+}
+
+nav ul
+{
+    display: flex;
+    list-style: none;
+    width: 40%;
+    justify-content: space-between;
+}
+
+nav ul li a{
+    color: white;
+    text-decoration: none;
+    font-size: 0.8em;
+    width: bold;
+    height: 100px;
+    
+   
+}
+
+nav ul li a:hover
+{
+    color: yellow;
+    text-shadow: 3px 2px 1px grey;
+}
+
+body
+
+{
+    background-color: black;
+    width: 100%;
+    height: 100%;
+}
+
+
+.fotoku
+{
+    width: 200px;
+    border-radius: 100px 100px 100px 100px ;
+    -webkit-border-radius: 100px 100px 100px 100px ;
+    -moz-border-radius: 100px 100px 100px 100px ;
+    -ms-border-radius: 100px 100px 100px 100px ;
+    -o-border-radius: 100px 100px 100px 100px ;
+    margin: 100px 100px 100px 150px ;
+    position: relative;
+    float: left;
+}
+
+.namaku
+{
+    padding: 70px 40px 0px 40px;
+    color:rgb(201,175,155);
+    width: bold;
+}
+
+.keterangan
+{
+    padding : 30px 100px 50px 40px;
+    color: white;
+}
+
+.logoku
+{
+  
+    margin-left: 40px;
+}
+
+.linkedin
+{
+    position: relative;
+    height: 40px;
+    width: 40px;
+    background-color: blue;
+    
+    border-radius: 50px 50px 50px 50px ;
+    -webkit-border-radius: 50px 50px 50px 50px ;
+    -moz-border-radius: 50px 50px 50px 50px ;
+    -ms-border-radius: 50px 50px 50px 50px ;
+    -o-border-radius: 50px 50px 50px 50px ;
+}
+
+
+.yt
+{
+    position: relative;
+    height: 40px;
+    width: 40px;
+    padding-left: 20px;
+  
+}
+
+.wa
+{
+    position: relative;
+    height: 40px;
+    width: 40px;
+    padding-left: 20px;
+          
+}
+
+.ig
+{
+    position: relative;
+    height: 40px;
+    width: 40px;
+    padding-left: 20px;
+          
+}
+ 
